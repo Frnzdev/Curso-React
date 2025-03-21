@@ -1,6 +1,7 @@
 
 import { useState } from "react";
-import Input from './input'; // Adjust the path as necessary
+import Input from "./Input"; // Se for um componente React
+
 
 function AddTask({ OnAddTaskSubmit }) {
     const [title, setTitle] = useState('');
